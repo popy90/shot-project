@@ -269,6 +269,7 @@ header{
     padding-top: 15px;
     position: relative;
 }
+.logo img{}
 .banner{
   position: absolute;
   top: 0;
@@ -342,7 +343,7 @@ h5{
 
 .service-section{
     position: relative;
-    padding: 110px 0;
+    padding: 135px 0;
 }
 .service-section img{
     position: absolute;
@@ -361,7 +362,7 @@ h5{
     left: 0;
 }
 .service{
-    padding: 40px;
+    padding: 50px;
     background: #ffffff96;
     position: relative;
     z-index: 1;
@@ -414,6 +415,7 @@ footer{
   position: absolute;
   bottom: 0;
   left: 0;
+  z-index: -1;
 }
 footer .container{}
 footer .row{}
@@ -461,6 +463,25 @@ footer a img{}
     font-size: 16px;
 }
 
+@media(min-width: 1200px){
+  .container{
+    max-width: 1410px;
+  }
+  footer p{
+    max-width: 590px;
+  }
+}
+
+@media(max-width: 1500px){
+  .service-section img {
+    max-width: 700px;
+}
+.service {
+    padding: 45px;
+   
+}
+}
+
 @media(max-width: 1199px){
   .banner-content h1 {
     
@@ -469,6 +490,13 @@ footer a img{}
 }
 .vh-800 {
     min-height: 450px;
+}
+.subscribe-section {
+    padding: 120px 0 90px;
+}
+.subscribe-section .row {
+    padding-top: 58px;
+    padding-bottom: 58px;
 }
 
 }
@@ -488,5 +516,128 @@ footer a img{}
 .form-inline input {
      padding: 24px 35px;
 }   
+.service-section {
+    padding: 140px 0;
+}
+.service-section img {
+    max-width: 612px;
+}
+.service {
+    padding: 35px;
+}
+.service p {
+    font-size: 16px;
+}
+.service h2 {
+    font-size: 28px;
+    
+}
+.service a {
+    font-size: 16px;
+    
+}
+.subscribe-section h2 {
+    
+    max-width: 100%;
+    text-align: center;
+}
+.subscribe-section p {
+   
+    text-align: center;
+}
+.subscribe-section .form-inline{
+  justify-content: center;
+}
+.subscribe-section {
+    padding: 80px 0 60px;
+}
+}
+
+@media(max-width: 767px){
+  .banner-content h1 {
+    margin: auto;
+    font-size: 27px;
+    max-width: 400px;
+}
+.banner-content {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+p {
+   
+    font-size: 16px;
+   
+}
+.form-inline {
+    justify-content: center;
+    margin-top: 20px;
+}
+.logo img {
+    width: 150px;
+}
+.searchbar:hover {
+    width: 206px;
+}
+.searchbar {
+    height: 45px;
+    width: 45px;
+}
+.search_icon {
+    height: 25px;
+    width: 25px;
+    font-size: 20px;
+}
+.service {
+    
+    text-align: center;
+
+    
+}
+.service-section img {
+    max-width: 555px;
+}
+.subscribe-section p {
+   
+    font-size: 18px;
+}
+.subscribe-section h2 {
+    font-size: 30px;
+   
+}
 
 }
+
+
+@media(max-width: 575px){
+  .searchbar {
+    display: none;
+  }
+  .vh-800 {
+    min-height: 420px;
+}
+.form-inline button {
+    
+    margin-top: 20px;
+}
+.service {
+    
+    text-align: center;
+}
+.service-section {
+    padding: 80px 0;
+}
+.service-section img {
+    max-width: 450px;
+}
+footer{
+  text-align: center;
+}
+.social-menu {
+    justify-content: center;
+}
+
+}
+
+
+@media(max-width: 400px)
